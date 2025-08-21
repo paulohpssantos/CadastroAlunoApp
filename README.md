@@ -18,8 +18,16 @@ Aplicativo Android para cadastro, consulta e gerenciamento de alunos utilizando 
 - **Build:** Gradle
 
 ## Estrutura do Projeto
-
-src/ └── main/ ├── java/ │ └── com/example/cadastroaluno/ │ ├── controller/ # Lógica de controle (ex: AlunoController) │ ├── dao/ # Acesso a dados (ex: AlunoDao) │ └── model/ # Modelos de dados (ex: Aluno) └── res/ # Recursos (layouts, strings, etc)
+```
+src/
+ └── main/
+     ├── java/
+     │   └── com/example/cadastroaluno/
+     │       ├── controller/   # Lógica de controle (ex: AlunoController)
+     │       ├── dao/         # Acesso a dados (ex: AlunoDao)
+     │       └── model/       # Modelos de dados (ex: Aluno)
+     └── res/                 # Recursos (layouts, strings, etc)
+```
 
 ## Instalação e Execução
 
